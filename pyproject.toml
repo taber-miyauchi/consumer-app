@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consumer-app"
+version = "1.0.0"
+description = "Consumer app that uses shared-utils for cross-repo SCIP demo"
+requires-python = ">=3.10"
+dependencies = ["shared-utils"]
