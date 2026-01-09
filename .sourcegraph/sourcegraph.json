@@ -1,0 +1,13 @@
+{
+  "index_jobs": [
+    {
+      "indexer": "sourcegraph/scip-python",
+      "steps": [
+        {
+          "root": "",
+          "commands": ["pip install -e ."]
+        }
+      ]
+    }
+  ]
+}
